@@ -1,8 +1,8 @@
 function data()
 return {
 	boundingInfo = {
-		bbMax = { 4.5387, 1.5543934106827, 3.9691610336304, },
-		bbMin = { -4.5387, -1.5543934106827, -1.4061318635941, },
+		bbMax = { 7.7956, 1.5543934106827, 3.9691610336304, },
+		bbMin = { -7.7956, -1.5543934106827, -1.4061318635941, },
 	},
 	collider = {
 		params = {
@@ -16,34 +16,34 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/waggon/Kokswagen/Fb-zz132_DBAG.mtl", },
-						mesh = "vehicle/waggon/Kokswagen/rumpf_fbzz132_lod0.msh",
+						materials = { "vehicle/waggon/Kokswagen/Fbs-zz131.mtl", },
+						mesh = "vehicle/waggon/Kokswagen/rumpf_fbszz131_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/Kokswagen/Fb-zz132_DBAG.mtl", },
+						materials = { "vehicle/waggon/Kokswagen/Fbs-zz131.mtl", },
 						mesh = "vehicle/waggon/Kokswagen/rad_lod0.msh",
 						name = "rumpf",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3, 0, 0.446242, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 0.446242, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/Kokswagen/Fb-zz132_DBAG.mtl", },
+						materials = { "vehicle/waggon/Kokswagen/Fbs-zz131.mtl", },
 						mesh = "vehicle/waggon/Kokswagen/rad_lod0.msh",
 						name = "rumpf",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3, 0, 0.446242, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 0.446242, 1, },
 					},
 					{
 						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
 						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
 						name = "zugschluss_de_front",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.9773, -0.95, 1.515, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.2685, -0.73, 1.265, 1, },
 					},
 					{
 						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
 						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
 						name = "zugschluss_de_front",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.9773, 0.95, 1.515, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.2685, 0.73, 1.265, 1, },
 					},
 				},
 				name = "RootNode",
@@ -57,22 +57,22 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/waggon/Kokswagen/Fb-zz132_DBAG.mtl", },
-						mesh = "vehicle/waggon/Kokswagen/rumpf_fbzz132_lod1.msh",
+						materials = { "vehicle/waggon/Kokswagen/Fbs-zz131.mtl", },
+						mesh = "vehicle/waggon/Kokswagen/rumpf_fbszz131_lod1.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/Kokswagen/Fb-zz132_DBAG.mtl", },
+						materials = { "vehicle/waggon/Kokswagen/Fbs-zz131.mtl", },
 						mesh = "vehicle/waggon/Kokswagen/rad_lod1.msh",
 						name = "rumpf",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3, 0, 0.446242, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 0.446242, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/Kokswagen/Fb-zz132_DBAG.mtl", },
+						materials = { "vehicle/waggon/Kokswagen/Fbs-zz131.mtl", },
 						mesh = "vehicle/waggon/Kokswagen/rad_lod1.msh",
 						name = "rumpf",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3, 0, 0.446242, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 0.446242, 1, },
 					},
 				},
 				name = "RootNode",
@@ -86,22 +86,22 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/waggon/Kokswagen/Fb-zz132_DBAG.mtl", },
-						mesh = "vehicle/waggon/Kokswagen/rumpf_fbzz132_lod2.msh",
+						materials = { "vehicle/waggon/Kokswagen/Fbs-zz131.mtl", },
+						mesh = "vehicle/waggon/Kokswagen/rumpf_fbszz131_lod2.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/Kokswagen/Fb-zz132_DBAG.mtl", },
+						materials = { "vehicle/waggon/Kokswagen/Fbs-zz131.mtl", },
 						mesh = "vehicle/waggon/Kokswagen/rad_lod2.msh",
 						name = "rumpf",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3, 0, 0.446242, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 0.446242, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/Kokswagen/Fb-zz132_DBAG.mtl", },
+						materials = { "vehicle/waggon/Kokswagen/Fbs-zz131.mtl", },
 						mesh = "vehicle/waggon/Kokswagen/rad_lod2.msh",
 						name = "rumpf",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3, 0, 0.446242, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 0.446242, 1, },
 					},
 				},
 				name = "RootNode",
@@ -109,12 +109,12 @@ return {
 			},
 			static = false,
 			visibleFrom = 500,
-			visibleTo = 1100,
+			visibleTo = 1500,
 		},
 	},
 	metadata = {
 		availability = {
-			yearFrom = 1994,
+			yearFrom = 2001,
 			yearTo = 2014,
 		},
 		cost = {
@@ -122,8 +122,8 @@ return {
 			priceScale = 1,
 		},
 		description = {
-			name = _("Fb-zz132_DBAG_name"),
-			description = _("Fb-zz132_DBAG_desc"),
+			name = _("Fbs-zz131_name_fake"),
+			description = _("Fbs-zz131_desc"),
 		},
 		emission = {
 			idleEmission = -1,
@@ -156,56 +156,56 @@ return {
 				name = "mw_altGz",
 			},
 			topSpeed = 27.777777778,
-			weight = 9.2,
+			weight = 12.9,
 		},
 		cargoSlotProvider = {
 			slots = {
 				{
 					models = { "vehicle/waggon/Kokswagen/beladung/load_coal_1.mdl", },
 					group = 0,
-					transf = { 0.92, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					randomId = 1,
 				},
 				{
 					models = { "vehicle/waggon/Kokswagen/beladung/load_coal_2.mdl", },
 					group = 0,
-					transf = { 0.92, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					randomId = 1,
 				},
 				{
 					models = { "vehicle/waggon/Kokswagen/beladung/load_coal_3.mdl", },
 					group = 0,
-					transf = { 0.92, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					randomId = 1,
 				},
 				{
 					models = { "vehicle/waggon/Kokswagen/beladung/load_coal_4.mdl", },
 					group = 0,
-					transf = { 0.92, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					randomId = 1,
 				},
                 {
 					models = { "vehicle/waggon/Kokswagen/beladung/load_coal_1.mdl", },
 					group = 0,
-					transf = { -0.92, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					randomId = 1,
 				},
 				{
 					models = { "vehicle/waggon/Kokswagen/beladung/load_coal_2.mdl", },
 					group = 0,
-					transf = { -0.92, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					randomId = 1,
 				},
 				{
 					models = { "vehicle/waggon/Kokswagen/beladung/load_coal_3.mdl", },
 					group = 0,
-					transf = { -0.92, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					randomId = 1,
 				},
 				{
 					models = { "vehicle/waggon/Kokswagen/beladung/load_coal_4.mdl", },
 					group = 0,
-					transf = { -0.92, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					randomId = 1,
 				},
 			},
@@ -218,15 +218,11 @@ return {
 						{
 							cargoEntries = {
 								{
-									capacity = 40,
+									capacity = 4,
 									customCargoModels = {
 										configurations = {
 											{
 												slotLevels = {
-													{ },
-													{ 0, 4, },
-													{ 1, 5, },
-													{ 2, 6, },
 													{ 3, 7, },
 												},
 											},
@@ -241,7 +237,7 @@ return {
 					},
 				},
 			},
-			groupFileName = "vehicle/waggon/Kokswagen/menu_Kokswagen.mdl",
+			groupFileName = "vehicle/waggon/Kokswagen/fake/menu_Kokswagen_fake.mdl",
 			loadSpeed = 2,
 			multipleUnitOnly = false,
 			reversible = false,

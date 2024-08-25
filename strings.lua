@@ -5,6 +5,12 @@ return {
 		["mod_name"] = "DB Coke cars (Fb-zz 132 / Fbs-zz 131)",
 		["mod_desc"] = "The German Federal Railways procured 80 bucket wagons especially for coke handling in 1957 and classified them as Okmm 58. The two-part buckets stand on the longitudinal girders in such a way that they remain closed by their own weight. To empty them, the crane gear hooked to the side brackets is lifted, thus opening the bucket shells. The wagons were mostly used in block trains.",
 
+        ["Fake_kokswagen"] = "Activate Coke cars fake versions?",
+        ["option_fake_kokswagen_desc"] = "Should the fake versions of the Coke cars be available in the game?",
+		
+		["sound_check"] = "Activate custom sound?",
+		["option_sound_check"] = "Should the extra sound be activated?",
+		
         ["Kokswagen_menu"] = "Coke cars (Fb-zz 132 / Fbs-zz 131)",
 		["Fbs-zz131_name"] = "Fbs-zz 131 (2001)",
         ["Fbs-zz131_desc"] = "To speed up special coke transports, where Fb-zz 132 were still used, the Paderborn works developed a new bucket car in 2001. 10 units were built and used in block trains together with the reworked Fb-zz 132.",
@@ -13,7 +19,13 @@ return {
         ["Fb-zz132_name"] = "Fb-zz 132 (1965)",
         ["Fb-zz132_DBAG_name"] = "Fb-zz 132 DB AG (1994)",
 		["Fb-zz132_desc"] = "From 1965 onwards, the Okmm 58s were re-designated as Fb-zz 132s in accordance with RIV guidelines. They were used in mostly block trains until their period of use was reached in 2000. Some wagons are refurbished in the Paderborn factory and remain in service with the Fbs-zz 131 for a few more years.",
-
+		
+		--- Fake ---
+        ["Kokswagen_menu_fake"] = "Coke cars (Fb-zz 132 / Fbs-zz 131) Fake",
+		["Fbs-zz131_name_fake"] = "Fbs-zz 131 (2001) Fake",
+		["Okmm58_name_fake"] = "Okmm 58 (1958) Fake",
+		["Fb-zz132_name_fake"] = "Fb-zz 132 (1965) Fake",
+        ["Fb-zz132_DBAG_name_fake"] = "Fb-zz 132 DB AG (1994) Fake",
 	},
 	de = {
 
@@ -28,6 +40,19 @@ return {
         ["Fb-zz132_name"] = "Fb-zz 132 (1965)",
         ["Fb-zz132_DBAG_name"] = "Fb-zz 132 DB AG (1994)",
 		["Fb-zz132_desc"] = "Ab 1965 wurden die Okmm 58 nach RIV Richtline zu Fb-zz 132 umgezeichnet. Sie wurden in meist Ganzzügen eingesetzt, bis ihre Nutzungzeit im Jahr 2000 erreicht ist. Einige Wagen werden im Werk Paderborn aufgearbeitet und bleiben mit den Fbs-zz 131 noch einige Jahre im Einsatz.",
+
+        ["Fake_kokswagen"] = "Kokswagen Fake-Versionen aktivieren?",
+        ["option_fake_kokswagen_desc"] = "Sollen die Fake-Versionen der Kokswagen verfügbar sein im Spiel?",
+
+		["sound_check"] = "Eigenes Soundset aktivieren?",
+		["option_sound_check"] = "Soll der extra Sound aktiviert sein?",
+		
+		--- Fake ---
+        ["Kokswagen_menu_fake"] = "Kokswagen (Fb-zz 132 / Fbs-zz 131) Fake",
+		["Fbs-zz131_name_fake"] = "Fbs-zz 131 (2001) Fake",
+		["Okmm58_name_fake"] = "Okmm 58 (1958) Fake",
+		["Fb-zz132_name_fake"] = "Fb-zz 132 (1965) Fake",
+        ["Fb-zz132_DBAG_name_fake"] = "Fb-zz 132 DB AG (1994) Fake",
 
 	},
 }

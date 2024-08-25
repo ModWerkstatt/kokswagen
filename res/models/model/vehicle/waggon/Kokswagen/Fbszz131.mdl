@@ -34,14 +34,14 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 0.446242, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/zugschluss.mtl", },
-						mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
 						name = "zugschluss_de_front",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.2685, -0.73, 1.265, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/zugschluss.mtl", },
-						mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
 						name = "zugschluss_de_front",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.2685, 0.73, 1.265, 1, },
 					},
@@ -153,7 +153,7 @@ return {
 			engines = { },
 			soundSet = {
 				horn = "",
-				name = "gw_neu",
+				name = "mw_altGz",
 			},
 			topSpeed = 27.777777778,
 			weight = 12.9,
